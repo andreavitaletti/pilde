@@ -8,6 +8,7 @@
 
 ## Per stampare su due colonne  
 
+The content of the head.yaml file 
 ```
 --- 
  classoption:
@@ -17,5 +18,5 @@
 ```
 
 ```
-pandoc -s blog_2020_2.md -o blog_2020.pdf
+pandoc blog_2006.md head.yaml -s -o blog_2006.pdf
 ```
